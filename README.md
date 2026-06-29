@@ -1,7 +1,8 @@
 # library-management-system
-![C](https://img.shields.io.cn/badge/language-C-blue)
-![Platform](https://img.shields.io.cn/badge/platform-Windows-lightgrey)
-![License](https://img.shields.io.cn/badge/license-MIT-green)
+![C](https://img.shields.io/badge/language-C-blue)
+![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 简单图书管理系统 —— C语言 + 单向链表 + 文件持久化，支持超级管理员/普通管理员/读者三角色
 
 ## 功能
@@ -40,8 +41,8 @@ library.exe
 ## 快速开始
 
 1. 首次运行程序会自动检测 `data.dat` 是否存在，若不存在则进入首次初始化流程。
-2. 初始化会创建默认超级管理员账户（账号：admin，密码：admin123）。
-3. 登录后可按菜单提示操作，图书和借阅数据文件会在程序退出时自动保存。
+2. 初始化会创建默认超级管理员账户并显示。
+3. 登录后可按菜单提示操作，图书和借阅数据文件会在程序运行中自动保存。
 
 ## 项目结构
 ├── Common.h          # 公共头文件、结构体定义、宏常量
@@ -83,4 +84,5 @@ library.exe
 - 数据文件位于程序所在目录，请勿手动修改格式，否则可能导致加载失败。
 
 ## License
+
 MIT © 2025 
